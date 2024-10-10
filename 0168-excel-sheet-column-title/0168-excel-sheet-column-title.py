@@ -8,6 +8,7 @@ class Solution:
         #    return chr(64+columnNumber)
         #else:
         #    return chr(64+quotient)+chr(64+remainder)
+        #The above code runs for every test case except one
         result = []
         
         while columnNumber > 0:
